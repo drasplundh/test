@@ -11,4 +11,7 @@ public class Controller {
         return "I'm functional!!";
     }
 
+    @RequestMapping(value = "test2")
+    public String report2() { return "I'm a successful feature";}
+
 }

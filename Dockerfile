@@ -14,8 +14,8 @@ FROM openjdk:17-jdk
 
 WORKDIR /app
 
-COPY --from=build /app/target/test-0.0.1-SNAPSHOT.jar /app/demo-0.0.1-SNAPSHOT.jar
+COPY --from=build /app/target/test-0.0.1-SNAPSHOT.jar /app/test-0.0.1-SNAPSHOT.jar
 
-EXPOSE 8083
+EXPOSE 8085
 
 CMD ["java", "-jar", "test-0.0.1-SNAPSHOT.jar"]

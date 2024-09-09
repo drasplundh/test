@@ -15,7 +15,7 @@ public class Controller {
     public String report2() { return "I'm a successful feature";}
 
     @RequestMapping(value = "test3")
-    public String report3() { return "I'm a 3rd feature";}
+    public String report3() { return "NEW FEATURE ADDED!";}
 
 
 }
